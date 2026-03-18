@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Player extends JCEntity {
-    Map<Integer, Player> playerMap = new HashMap<>();
+    static Map<Integer, Player> playerMap = new HashMap<>();
 
     @Override
     public void onLoad() {
